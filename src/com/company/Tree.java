@@ -12,7 +12,6 @@ public class Tree {
     }
 
     public static Tree readString(String data) {
-        System.out.println(data);
         String[] lines = data.split("\n");
         Parser parser = new Parser(lines[0]);
         for (int i = 1; i < lines.length; i++) {
